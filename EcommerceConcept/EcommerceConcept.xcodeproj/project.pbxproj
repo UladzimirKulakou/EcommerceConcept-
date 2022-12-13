@@ -17,6 +17,7 @@
 		E7D031422948EA420039590F /* MarkPro400.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D031412948EA420039590F /* MarkPro400.otf */; };
 		E7D031442948EA540039590F /* MarkPro700.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D031432948EA540039590F /* MarkPro700.otf */; };
 		E7D031462948EA5F0039590F /* MarkPro800.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D031452948EA5F0039590F /* MarkPro800.otf */; };
+		E7D031492948F6260039590F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7D031482948F6260039590F /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		E7D031412948EA420039590F /* MarkPro400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro400.otf; sourceTree = "<group>"; };
 		E7D031432948EA540039590F /* MarkPro700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro700.otf; sourceTree = "<group>"; };
 		E7D031452948EA5F0039590F /* MarkPro800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro800.otf; sourceTree = "<group>"; };
+		E7D031472948EFF50039590F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E7D031482948F6260039590F /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,7 @@
 		E7D0311F2948E21E0039590F = {
 			isa = PBXGroup;
 			children = (
+				E7D031482948F6260039590F /* Launch Screen.storyboard */,
 				E7D0312A2948E21E0039590F /* EcommerceConcept */,
 				E7D031292948E21E0039590F /* Products */,
 			);
@@ -63,6 +67,7 @@
 		E7D0312A2948E21E0039590F /* EcommerceConcept */ = {
 			isa = PBXGroup;
 			children = (
+				E7D031472948EFF50039590F /* Info.plist */,
 				E7D0313E2948E25F0039590F /* Font */,
 				E7D0312B2948E21E0039590F /* EcommerceConceptApp.swift */,
 				E7D0312D2948E21E0039590F /* ContentView.swift */,
@@ -157,6 +162,7 @@
 				E7D031462948EA5F0039590F /* MarkPro800.otf in Resources */,
 				E7D031402948EA230039590F /* MarkPro500.otf in Resources */,
 				E7D031442948EA540039590F /* MarkPro700.otf in Resources */,
+				E7D031492948F6260039590F /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,15 +302,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcommerceConcept/Preview Content\"";
 				DEVELOPMENT_TEAM = K79KHUW8KA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcommerceConcept/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -325,15 +333,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EcommerceConcept/Preview Content\"";
 				DEVELOPMENT_TEAM = K79KHUW8KA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EcommerceConcept/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
