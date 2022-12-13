@@ -13,6 +13,10 @@
 		E7D031332948E21F0039590F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7D031322948E21F0039590F /* Preview Assets.xcassets */; };
 		E7D031352948E21F0039590F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D031342948E21F0039590F /* Persistence.swift */; };
 		E7D031382948E21F0039590F /* EcommerceConcept.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E7D031362948E21F0039590F /* EcommerceConcept.xcdatamodeld */; };
+		E7D031402948EA230039590F /* MarkPro500.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D0313F2948EA230039590F /* MarkPro500.otf */; };
+		E7D031422948EA420039590F /* MarkPro400.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D031412948EA420039590F /* MarkPro400.otf */; };
+		E7D031442948EA540039590F /* MarkPro700.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D031432948EA540039590F /* MarkPro700.otf */; };
+		E7D031462948EA5F0039590F /* MarkPro800.otf in Resources */ = {isa = PBXBuildFile; fileRef = E7D031452948EA5F0039590F /* MarkPro800.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		E7D031322948E21F0039590F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E7D031342948E21F0039590F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E7D031372948E21F0039590F /* EcommerceConcept.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcommerceConcept.xcdatamodel; sourceTree = "<group>"; };
+		E7D0313F2948EA230039590F /* MarkPro500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro500.otf; sourceTree = "<group>"; };
+		E7D031412948EA420039590F /* MarkPro400.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro400.otf; sourceTree = "<group>"; };
+		E7D031432948EA540039590F /* MarkPro700.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro700.otf; sourceTree = "<group>"; };
+		E7D031452948EA5F0039590F /* MarkPro800.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MarkPro800.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,10 @@
 		E7D0313E2948E25F0039590F /* Font */ = {
 			isa = PBXGroup;
 			children = (
+				E7D031412948EA420039590F /* MarkPro400.otf */,
+				E7D0313F2948EA230039590F /* MarkPro500.otf */,
+				E7D031432948EA540039590F /* MarkPro700.otf */,
+				E7D031452948EA5F0039590F /* MarkPro800.otf */,
 			);
 			path = Font;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7D031332948E21F0039590F /* Preview Assets.xcassets in Resources */,
+				E7D031422948EA420039590F /* MarkPro400.otf in Resources */,
 				E7D031302948E21F0039590F /* Assets.xcassets in Resources */,
+				E7D031462948EA5F0039590F /* MarkPro800.otf in Resources */,
+				E7D031402948EA230039590F /* MarkPro500.otf in Resources */,
+				E7D031442948EA540039590F /* MarkPro700.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
