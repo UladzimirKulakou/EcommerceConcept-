@@ -26,7 +26,7 @@ struct SelectCategory: View {
                     .kerning(-1)
                 
             })
-        }.padding()
+        }.padding(.horizontal)
     }
 }
 
