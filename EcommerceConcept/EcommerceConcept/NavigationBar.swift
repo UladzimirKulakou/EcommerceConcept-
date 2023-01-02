@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct NavigationBar: View {
+    
+    @ObservedObject var viewModel = CategoryButtonViewModel()
+    @State private var isButtonTapped: Bool = false
+    
+    
     var body: some View {
         
         NavigationView{
@@ -17,9 +22,12 @@ struct NavigationBar: View {
                 
                 ScrollView(.horizontal){
                     HStack{
-                        ForEach(0..<5){_ in
-                            CategoryBotton()
+                        ForEach(viewModel.buttons){ button in
+                            CategoryButton(isButtonActive: $isButtonTapped, buttonText: button.title, image: button.image)
                                 .padding(.horizontal, 3)
+                                
+                        }.onTapGesture {
+                            isButtonTapped.toggle()
                         }
                     }
                 }
